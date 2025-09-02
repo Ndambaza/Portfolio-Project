@@ -98,6 +98,24 @@ p {
   padding: 12px 20px;
   margin: 20px 0;
 }
+
+.brand-logo {
+  max-width: 150px;
+}
+
+.nav-item a {
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+.nav-item a:hover {
+  color: var(--branding-color);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+  font-weight: bolder;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;

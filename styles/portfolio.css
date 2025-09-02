@@ -58,7 +58,7 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
 }
 
@@ -117,7 +117,7 @@ p {
     padding: 0;
   }
   .content-container h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 2;
   }
 
@@ -126,7 +126,7 @@ p {
     font-size: 28px;
   }
   .content-container h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.2;
   }
   .content-container p {

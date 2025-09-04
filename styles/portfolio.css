@@ -40,7 +40,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -57,7 +57,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 
 .content h1 {
@@ -118,6 +118,13 @@ p {
   color: var(--branding-color);
   font-weight: bolder;
 }
+
+.teamwork-image img {
+  max-width: 600px;
+  border: 19px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 5px;
+}
 footer {
   margin: 60px 0;
 }
@@ -164,7 +171,7 @@ footer .email-link:hover {
     font-size: 24;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .content-container {
@@ -208,6 +215,9 @@ footer .email-link:hover {
   .profile-img {
     display: block;
     margin: 20px auto;
+  }
+  .teamwork-image img {
+    max-width: 100%;
   }
   .brand-logo {
     max-width: 120px;

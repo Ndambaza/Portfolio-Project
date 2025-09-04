@@ -27,11 +27,18 @@
       src="https://kit.fontawesome.com/fdd6d24231.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Natalie is a front-end engineer based in the UK. She specialises in creating beautiful, responsive websites and web applications."
+    />
+    <title>Natalie's work Front-end Developer - codewithnat</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
       <div class="container-fluid">
-        <img src="images/blogo.png" class="brand-logo" alt="Logo" />
+        <a href="index.html" title="Natalie Dambaza Homepage">
+          <img src="images/blogo.png" class="brand-logo" alt="Natalie logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,18 +53,34 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html" title="About Natalie"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="work.html"
+              <a
+                class="nav-link active"
+                href="about.html#contact"
+                title="Natalie's Work"
                 >Work
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact Natalie"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -73,7 +96,7 @@
             <img
               src="images/world-clock.png"
               class="img-fluid"
-              alt="World Clock App"
+              alt="World Clock App Project Preview"
             />
             <h3 class="text-center mt-4">World Clock Project</h3>
             <p class="text-center text-muted mb-4">
@@ -81,11 +104,13 @@
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img
-              src="images/love-poem.png"
-              class="img-fluid"
-              alt="Love Poem Generator"
-            />
+            <div class="love-poem">
+              <img
+                src="images/love-poem.png"
+                class="img-fluid"
+                alt="Love Poem Generator Project Preview"
+              />
+            </div>
             <h3 class="text-center mt-4">Love Poem Project</h3>
             <p class="text-center text-muted mb-4">
               Built with HTML,CSS and JavaScript
@@ -95,7 +120,7 @@
             <img
               src="images/weather-app.png"
               class="img-fluid"
-              alt="Weather App"
+              alt="Weather App Project Preview"
             />
             <h3 class="text-center mt-4">Weather App Project</h3>
             <p class="text-center text-muted">
@@ -103,16 +128,67 @@
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img
-              src="images/Travel-landing.png"
-              class="img-fluid"
-              alt="Travel Landing Page"
-            />
+            <div class="travel-app">
+              <img
+                src="images/Travel-landing.png"
+                class="img-fluid"
+                alt="Travel Landing Page Project Preview"
+              />
+            </div>
             <h3 class="text-center mt-4">Dream Travel Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-4 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry!</h4>
+            <p class="text-muted mt-2">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Natalie"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:nmdambaza@gmail.com"
+            class="email-link"
+            title="Email Natalie"
+            >nmdambaza@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mt-4">
+          <a
+            href="https://github.com/Ndambaza"
+            target="_blank"
+            title="Natalie's GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="www.linkedin.com/in/natalie-d-606415146"
+            target="_blank"
+            title="Natalie's LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center text-muted mt-4 mb-4">
+          This Project was coded by Natalie Dambaza and is
+          <a
+            href="https://github.com/Ndambaza/Portfolio-Project"
+            target="_blank"
+            title="Portfolio Project on GitHub"
+            class="text-decoration-none"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
